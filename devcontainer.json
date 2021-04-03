@@ -1,0 +1,136 @@
+{
+    "extensions": [
+        "ms-vscode.cpptools",
+        "kube.42header",
+        "prkns.purrp-vscode",
+        "yo1dog.cursor-align",
+        "aaron-bond.better-comments",
+        "coenraads.bracket-pair-colorizer-2",
+    ],
+    "settings": {
+        "editor.tokenColorCustomizations": {
+            "[Purrp]": {
+                "textMateRules": [
+                    {
+                        "scope": [
+                            "variable.other.property",
+                            "variable.other.enummember",
+                            "punctuation.separator.pointer-access",
+                            "punctuation.separator.dot-access",
+                        ],
+                        "settings": {
+                            "foreground": "#c76eb8",
+                            "fontStyle": ""
+                        }
+                    },
+                    {
+                        "scope": [
+                            "keyword.operator.logical.c",
+                        ],
+                        "settings": {
+                            "foreground": "#ce2828",
+                            "fontStyle": "bold"
+                        }
+                    },
+                    {
+                        "scope": [
+                            "punctuation.definition.comment.begin",
+                            "punctuation.definition.comment",
+                            "comment",
+                            "punctuation.definition.comment.end",
+                        ],
+                        "settings": {
+                            "foreground": "#ff3266",
+                            "fontStyle": ""
+                        }
+                    },
+                    {
+                        "scope": "entity.name.function.preprocessor",
+                        "settings": {
+                            "foreground": "#a0337c",
+                        }
+                    },
+                    {
+                        "scope": "entity.name.function",
+                        "settings": {
+                            "fontStyle": "italic"
+                        }
+                    },
+                    {
+                        "scope": "constant.numeric.decimal",
+                        "settings": {
+                            "fontStyle": "italic"
+                        }
+                    },
+                    {
+                        "scope": [
+                            "keyword.other.unit",
+                            "constant.numeric"
+                        ],
+                        "settings": {
+                            "foreground": "#82F8FC",
+                            "fontStyle": "italic"
+                        }
+                    }
+                ]
+            }
+        },
+        "better-comments.multilineComments": true,
+        "better-comments.tags": [
+            {
+                "tag": "!",
+                "color": "#C70039",
+                "strikethrough": false,
+                "backgroundColor": "transparent"
+            },
+            {
+                "tag": "?",
+                "color": "#0ABCC8",
+                "strikethrough": false,
+                "backgroundColor": "transparent"
+            },
+            {
+                "tag": "note",
+                "color": "#0ABCC8",
+                "strikethrough": false,
+                "backgroundColor": "transparent"
+            },
+            {
+                "tag": "todo",
+                "color": "#FFC300",
+                "strikethrough": false,
+                "backgroundColor": "transparent"
+            }
+        ],
+        "bracket-pair-colorizer-2.colors": [
+            "#F9E96F",
+            "#7FF96F",
+            "#6F7FF9",
+            "#F96F7F",
+            "#AAAAAA"
+        ],
+        "editor.rulers": [
+            {"column": 80, "color": "#FF7F00"}
+        ],
+        "files.exclude": {
+            "**/*.ilk": true,
+            "**/*.lnk": true,
+            "**/*.o": true,
+            "**/*.obj": true,
+            "**/*.pdb": true,
+            "**/*.zip": true
+        },
+        "files.trimTrailingWhitespace": true,
+        "editor.wordWrap": "off",
+        "editor.fontFamily": "IBM Plex Mono, Fira Code",
+        "42header.username": "ngontjar",
+        "42header.email": "ngontjar@student.hive.fi",
+        "editor.minimap.maxColumn": 80,
+        "editor.renderWhitespace": "boundary",
+        "editor.multiCursorModifier": "ctrlCmd",
+        "editor.insertSpaces": false,
+        "editor.renderIndentGuides": false,
+        "editor.minimap.renderCharacters": false,
+        "workbench.colorTheme": "Purrp",
+    }
+}
